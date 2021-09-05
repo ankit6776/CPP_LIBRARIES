@@ -1,3 +1,6 @@
+//https://judge.yosupo.jp/problem/staticrmq
+//https://judge.yosupo.jp/problem/static_range_sum
+//https://judge.yosupo.jp/submission/58870
 #include<vector>
 #include<iostream>
 using namespace std;
