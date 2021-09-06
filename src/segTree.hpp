@@ -4,7 +4,7 @@ template<typename T> inline T max(T a, T b){return a>b?a:b;}
 template<typename T> inline T min(T a, T b){return a<b?a:b;}
 template<typename T> inline T __gcd(T a, T b){ return b==0 ? a : __gcd(b,a%b);}
 template<typename T> struct SegTree {
-    T N;
+    long long N;
     vector<T> v;
     vector<T> seg;
     void init(int st, int end, int ind){
