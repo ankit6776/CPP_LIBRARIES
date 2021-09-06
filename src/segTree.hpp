@@ -1,8 +1,8 @@
 #include<vector>
 
-template<typename T> inline T max(T a, T b){return a>b?a:b;}
-template<typename T> inline T min(T a, T b){return a<b?a:b;}
-template<typename T> inline T __gcd(T a, T b){ return b==0 ? a : __gcd(b,a%b);}
+template<typename T> inline T Max(T a, T b){return a>b?a:b;}
+template<typename T> inline T Min(T a, T b){return a<b?a:b;}
+template<typename T> inline T __Gcd(T a, T b){ return b==0 ? a : __Gcd(b,a%b);}
 template<typename T> struct SegTree {
     long long N;
     vector<T> v;
