@@ -117,3 +117,5 @@ template<typename T> struct SegTree {
     
 };
 
+// Test implementation can be found here : https://leetcode.com/problems/the-skyline-problem/discuss/2659352/c-using-segment-tree
+
